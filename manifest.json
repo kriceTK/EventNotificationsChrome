@@ -9,10 +9,10 @@
     "default_icon": "icon19.png"
   },
 
-  "events": {
-    "scripts": ["event.js"],
-    "persistent": false
-  },
+  "content_scripts": [{
+    "matches": ["http://www.liquiddota.com/calendar/*"],
+    "js": ["jquery-1.11.1.min.js", "event.js"]
+  }],
 
   "permissions": ["<all_urls>"]
 }
