@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var p = $(".ev-match div:contains('Tinker') .ev-timer").first().text()
+	var p = $(".ev-match div:contains('Tinker') .ev-timer").first().text();
 	var n = new Date();
 	var h = p.split(":");
 
